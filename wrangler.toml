@@ -1,0 +1,9 @@
+name = "jevsay-poc"
+compatibility_date = "2024-10-01"
+pages_build_output_dir = "dist"
+
+[vars]
+JEV_API_URL = "https://api.typesafe.ai/v1/systemone"
+# ใส่ JEV_API_KEY ของคุณที่นี่ หรือปล่อยว่างเพื่อรันโหมด Offline Deterministic Mock
+JEV_API_KEY = ""
+X_KIOSK_TOKEN = "jevsay-kiosk-secret-2026"
